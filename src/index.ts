@@ -13,7 +13,7 @@ class HelloResolver {
 
 const main = async () => {
   const schema = await buildSchema({
-    resolvers:[HelloResolver]
+    resolvers: [HelloResolver]
   });
 
   const apolloServer = new ApolloServer({ schema });
