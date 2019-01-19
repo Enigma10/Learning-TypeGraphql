@@ -27,6 +27,9 @@ mutation Register($data: RegisterInput!) {
 `;
 
 describe("Register", () => {
+  beforeEach(() => {
+    jest.setTimeout(10000);
+  })
   it("create user", async () => {
     console.log(
       await gCall({
