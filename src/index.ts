@@ -1,18 +1,15 @@
-import "reflect-metadata";
 import { ApolloServer } from "apollo-server-express";
-import Express from "express";
-import { formatArgumentValidationError } from "type-graphql";
-import { createConnection } from "typeorm";
-import session from "express-session";
 import connectRedis from "connect-redis";
 import cors from "cors";
-import queryComplexity, {
-  fieldConfigEstimator,
-  simpleEstimator
-} from "graphql-query-complexity";
-
+import Express from "express";
+import session from "express-session";
+import queryComplexity, { fieldConfigEstimator, simpleEstimator } from "graphql-query-complexity";
+import "reflect-metadata";
+import { formatArgumentValidationError } from "type-graphql";
+import { createConnection } from "typeorm";
 import { redis } from "./redis";
 import { createSchema } from "./utils/createSchema";
+
 
 const main = async () => {
   await createConnection();
@@ -77,7 +74,7 @@ const main = async () => {
     })
   );
 
-  apolloServer.applyMiddleware({ app });
+  apolloServer.applyMiddleware({ app, cors: false });
 
   app.listen(4000, () => {
     console.log("server started on http://localhost:4000/graphql");
