@@ -20,9 +20,7 @@
 
 
 
+ ### Front code [Typescript-Next-Graphql-Apollow](https://github.com/Enigma10/next-with-typescript-graphql-frontend)
 
+### Learn and implement it from ban awad series [TypeGraphQL backend](https://www.youtube.com/watch?v=8yZImm2A1KE&list=PLN3n1USn4xlma1bBu3Tloe4NyYn9Ko8Gs) 
 
-
-
-
-## I followed ban awad youtube series to learn these. 
