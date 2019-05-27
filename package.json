@@ -6,7 +6,7 @@
   "author": "Enigma10 <vkrsaini@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "@types/connect-redis": "^0.0.8",
+    "@types/connect-redis": "^0.0.10",
     "apollo-server-express": "^2.3.1",
     "bcryptjs": "^2.4.3",
     "class-validator": "^0.9.1",
