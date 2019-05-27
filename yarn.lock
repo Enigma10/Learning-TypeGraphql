@@ -150,9 +150,9 @@
   version "14.0.4"
   resolved "https://registry.yarnpkg.com/@types/graphql/-/graphql-14.0.4.tgz#d71a75967cd93c33eaea32b626b362ce0f2b2ae9"
 
-"@types/ioredis@^4.0.4":
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/@types/ioredis/-/ioredis-4.0.4.tgz#c0a809064c05e4c2663803128d46042e73c92558"
+"@types/ioredis@^4.0.10":
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/@types/ioredis/-/ioredis-4.0.10.tgz#ca8bd95ca7d5fee32cbc5a0bf92fc29264bee237"
   dependencies:
     "@types/node" "*"
 
