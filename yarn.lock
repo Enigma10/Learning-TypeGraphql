@@ -118,11 +118,10 @@
     "@types/node" "*"
     "@types/range-parser" "*"
 
-"@types/express-session@*", "@types/express-session@^1.15.11":
-  version "1.15.11"
-  resolved "https://registry.yarnpkg.com/@types/express-session/-/express-session-1.15.11.tgz#49bca7a8fb5c00402907e8ec0d3546ee28de2c41"
+"@types/express-session@*", "@types/express-session@^1.15.12":
+  version "1.15.12"
+  resolved "https://registry.yarnpkg.com/@types/express-session/-/express-session-1.15.12.tgz#1126704826e80f8381da4fbbb35a199f550d1433"
   dependencies:
-    "@types/events" "*"
     "@types/express" "*"
     "@types/node" "*"
 
@@ -4602,7 +4601,7 @@ typeorm@^0.2.11:
     yargonaut "^1.1.2"
     yargs "^12.0.5"
 
-typescript@^3.4.5:
+typescript@^3.2.2:
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.5.tgz#2d2618d10bb566572b8d7aad5180d84257d70a99"
 
