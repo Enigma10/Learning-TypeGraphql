@@ -176,11 +176,10 @@
   version "10.12.18"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.18.tgz#1d3ca764718915584fcd9f6344621b7672665c67"
 
-"@types/nodemailer@^4.6.5":
-  version "4.6.5"
-  resolved "https://registry.yarnpkg.com/@types/nodemailer/-/nodemailer-4.6.5.tgz#8bb799202f8cfcc8200a1c1627f6a8a74fe71da6"
+"@types/nodemailer@^6.1.1":
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/@types/nodemailer/-/nodemailer-6.1.1.tgz#1da590d938dfe15f3321b75e0e5faad77c59bb96"
   dependencies:
-    "@types/events" "*"
     "@types/node" "*"
 
 "@types/range-parser@*":
@@ -4602,7 +4601,7 @@ typeorm@^0.2.11:
     yargonaut "^1.1.2"
     yargs "^12.0.5"
 
-typescript@^3.4.5:
+typescript@^3.2.2:
   version "3.4.5"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-3.4.5.tgz#2d2618d10bb566572b8d7aad5180d84257d70a99"
 
