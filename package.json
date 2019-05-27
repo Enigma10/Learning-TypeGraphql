@@ -7,7 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "@types/connect-redis": "^0.0.10",
-    "apollo-server-express": "^2.3.1",
+    "apollo-server-express": "^2.5.0",
     "bcryptjs": "^2.4.3",
     "class-validator": "^0.9.1",
     "connect-redis": "^3.4.0",
