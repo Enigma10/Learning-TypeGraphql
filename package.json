@@ -31,7 +31,7 @@
     "@types/express-session": "^1.15.12",
     "@types/faker": "^4.1.5",
     "@types/graphql": "^14.0.4",
-    "@types/ioredis": "^4.0.10",
+    "@types/ioredis": "^4.0.12",
     "@types/jest": "^23.3.12",
     "@types/node": "^10.12.18",
     "@types/nodemailer": "^6.1.1",
